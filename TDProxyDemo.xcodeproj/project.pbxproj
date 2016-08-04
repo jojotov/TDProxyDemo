@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B95877921D53935D0011ACE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B95877911D53935D0011ACE9 /* main.m */; };
+		B95877951D53935D0011ACE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B95877941D53935D0011ACE9 /* AppDelegate.m */; };
+		B95877981D53935D0011ACE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B95877971D53935D0011ACE9 /* ViewController.m */; };
+		B958779B1D53935D0011ACE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B95877991D53935D0011ACE9 /* Main.storyboard */; };
+		B958779D1D53935D0011ACE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B958779C1D53935D0011ACE9 /* Assets.xcassets */; };
+		B95877A01D53935D0011ACE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B958779E1D53935D0011ACE9 /* LaunchScreen.storyboard */; };
+		B95877AB1D53935D0011ACE9 /* TDProxyDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B95877AA1D53935D0011ACE9 /* TDProxyDemoTests.m */; };
+		B95877B61D53935D0011ACE9 /* TDProxyDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B95877B51D53935D0011ACE9 /* TDProxyDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B95877A71D53935D0011ACE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B95877851D53935D0011ACE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B958778C1D53935D0011ACE9;
+			remoteInfo = TDProxyDemo;
+		};
+		B95877B21D53935D0011ACE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B95877851D53935D0011ACE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B958778C1D53935D0011ACE9;
+			remoteInfo = TDProxyDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B958778D1D53935D0011ACE9 /* TDProxyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDProxyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95877911D53935D0011ACE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B95877931D53935D0011ACE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B95877941D53935D0011ACE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B95877961D53935D0011ACE9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B95877971D53935D0011ACE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B958779A1D53935D0011ACE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B958779C1D53935D0011ACE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B958779F1D53935D0011ACE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B95877A11D53935D0011ACE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95877A61D53935D0011ACE9 /* TDProxyDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDProxyDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95877AA1D53935D0011ACE9 /* TDProxyDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDProxyDemoTests.m; sourceTree = "<group>"; };
+		B95877AC1D53935D0011ACE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95877B11D53935D0011ACE9 /* TDProxyDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDProxyDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95877B51D53935D0011ACE9 /* TDProxyDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDProxyDemoUITests.m; sourceTree = "<group>"; };
+		B95877B71D53935D0011ACE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B958778A1D53935D0011ACE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95877A31D53935D0011ACE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95877AE1D53935D0011ACE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B95877841D53935D0011ACE9 = {
+			isa = PBXGroup;
+			children = (
+				B958778F1D53935D0011ACE9 /* TDProxyDemo */,
+				B95877A91D53935D0011ACE9 /* TDProxyDemoTests */,
+				B95877B41D53935D0011ACE9 /* TDProxyDemoUITests */,
+				B958778E1D53935D0011ACE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B958778E1D53935D0011ACE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B958778D1D53935D0011ACE9 /* TDProxyDemo.app */,
+				B95877A61D53935D0011ACE9 /* TDProxyDemoTests.xctest */,
+				B95877B11D53935D0011ACE9 /* TDProxyDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B958778F1D53935D0011ACE9 /* TDProxyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B95877931D53935D0011ACE9 /* AppDelegate.h */,
+				B95877941D53935D0011ACE9 /* AppDelegate.m */,
+				B95877961D53935D0011ACE9 /* ViewController.h */,
+				B95877971D53935D0011ACE9 /* ViewController.m */,
+				B95877991D53935D0011ACE9 /* Main.storyboard */,
+				B958779C1D53935D0011ACE9 /* Assets.xcassets */,
+				B958779E1D53935D0011ACE9 /* LaunchScreen.storyboard */,
+				B95877A11D53935D0011ACE9 /* Info.plist */,
+				B95877901D53935D0011ACE9 /* Supporting Files */,
+			);
+			path = TDProxyDemo;
+			sourceTree = "<group>";
+		};
+		B95877901D53935D0011ACE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B95877911D53935D0011ACE9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B95877A91D53935D0011ACE9 /* TDProxyDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B95877AA1D53935D0011ACE9 /* TDProxyDemoTests.m */,
+				B95877AC1D53935D0011ACE9 /* Info.plist */,
+			);
+			path = TDProxyDemoTests;
+			sourceTree = "<group>";
+		};
+		B95877B41D53935D0011ACE9 /* TDProxyDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B95877B51D53935D0011ACE9 /* TDProxyDemoUITests.m */,
+				B95877B71D53935D0011ACE9 /* Info.plist */,
+			);
+			path = TDProxyDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B958778C1D53935D0011ACE9 /* TDProxyDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B95877BA1D53935D0011ACE9 /* Build configuration list for PBXNativeTarget "TDProxyDemo" */;
+			buildPhases = (
+				B95877891D53935D0011ACE9 /* Sources */,
+				B958778A1D53935D0011ACE9 /* Frameworks */,
+				B958778B1D53935D0011ACE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDProxyDemo;
+			productName = TDProxyDemo;
+			productReference = B958778D1D53935D0011ACE9 /* TDProxyDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B95877A51D53935D0011ACE9 /* TDProxyDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B95877BD1D53935D0011ACE9 /* Build configuration list for PBXNativeTarget "TDProxyDemoTests" */;
+			buildPhases = (
+				B95877A21D53935D0011ACE9 /* Sources */,
+				B95877A31D53935D0011ACE9 /* Frameworks */,
+				B95877A41D53935D0011ACE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B95877A81D53935D0011ACE9 /* PBXTargetDependency */,
+			);
+			name = TDProxyDemoTests;
+			productName = TDProxyDemoTests;
+			productReference = B95877A61D53935D0011ACE9 /* TDProxyDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B95877B01D53935D0011ACE9 /* TDProxyDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B95877C01D53935D0011ACE9 /* Build configuration list for PBXNativeTarget "TDProxyDemoUITests" */;
+			buildPhases = (
+				B95877AD1D53935D0011ACE9 /* Sources */,
+				B95877AE1D53935D0011ACE9 /* Frameworks */,
+				B95877AF1D53935D0011ACE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B95877B31D53935D0011ACE9 /* PBXTargetDependency */,
+			);
+			name = TDProxyDemoUITests;
+			productName = TDProxyDemoUITests;
+			productReference = B95877B11D53935D0011ACE9 /* TDProxyDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B95877851D53935D0011ACE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jojoting;
+				TargetAttributes = {
+					B958778C1D53935D0011ACE9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B95877A51D53935D0011ACE9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B958778C1D53935D0011ACE9;
+					};
+					B95877B01D53935D0011ACE9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B958778C1D53935D0011ACE9;
+					};
+				};
+			};
+			buildConfigurationList = B95877881D53935D0011ACE9 /* Build configuration list for PBXProject "TDProxyDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B95877841D53935D0011ACE9;
+			productRefGroup = B958778E1D53935D0011ACE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B958778C1D53935D0011ACE9 /* TDProxyDemo */,
+				B95877A51D53935D0011ACE9 /* TDProxyDemoTests */,
+				B95877B01D53935D0011ACE9 /* TDProxyDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B958778B1D53935D0011ACE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95877A01D53935D0011ACE9 /* LaunchScreen.storyboard in Resources */,
+				B958779D1D53935D0011ACE9 /* Assets.xcassets in Resources */,
+				B958779B1D53935D0011ACE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95877A41D53935D0011ACE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95877AF1D53935D0011ACE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B95877891D53935D0011ACE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95877981D53935D0011ACE9 /* ViewController.m in Sources */,
+				B95877951D53935D0011ACE9 /* AppDelegate.m in Sources */,
+				B95877921D53935D0011ACE9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95877A21D53935D0011ACE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95877AB1D53935D0011ACE9 /* TDProxyDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95877AD1D53935D0011ACE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95877B61D53935D0011ACE9 /* TDProxyDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B95877A81D53935D0011ACE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B958778C1D53935D0011ACE9 /* TDProxyDemo */;
+			targetProxy = B95877A71D53935D0011ACE9 /* PBXContainerItemProxy */;
+		};
+		B95877B31D53935D0011ACE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B958778C1D53935D0011ACE9 /* TDProxyDemo */;
+			targetProxy = B95877B21D53935D0011ACE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B95877991D53935D0011ACE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B958779A1D53935D0011ACE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B958779E1D53935D0011ACE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B958779F1D53935D0011ACE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B95877B81D53935D0011ACE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B95877B91D53935D0011ACE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B95877BB1D53935D0011ACE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TDProxyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jojo.TDProxyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B95877BC1D53935D0011ACE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TDProxyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jojo.TDProxyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B95877BE1D53935D0011ACE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TDProxyDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jojo.TDProxyDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDProxyDemo.app/TDProxyDemo";
+			};
+			name = Debug;
+		};
+		B95877BF1D53935D0011ACE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TDProxyDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jojo.TDProxyDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDProxyDemo.app/TDProxyDemo";
+			};
+			name = Release;
+		};
+		B95877C11D53935D0011ACE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TDProxyDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jojo.TDProxyDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TDProxyDemo;
+			};
+			name = Debug;
+		};
+		B95877C21D53935D0011ACE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TDProxyDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jojo.TDProxyDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TDProxyDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B95877881D53935D0011ACE9 /* Build configuration list for PBXProject "TDProxyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95877B81D53935D0011ACE9 /* Debug */,
+				B95877B91D53935D0011ACE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B95877BA1D53935D0011ACE9 /* Build configuration list for PBXNativeTarget "TDProxyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95877BB1D53935D0011ACE9 /* Debug */,
+				B95877BC1D53935D0011ACE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B95877BD1D53935D0011ACE9 /* Build configuration list for PBXNativeTarget "TDProxyDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95877BE1D53935D0011ACE9 /* Debug */,
+				B95877BF1D53935D0011ACE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B95877C01D53935D0011ACE9 /* Build configuration list for PBXNativeTarget "TDProxyDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95877C11D53935D0011ACE9 /* Debug */,
+				B95877C21D53935D0011ACE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B95877851D53935D0011ACE9 /* Project object */;
+}
