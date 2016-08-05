@@ -15,6 +15,9 @@
 		B95877A01D53935D0011ACE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B958779E1D53935D0011ACE9 /* LaunchScreen.storyboard */; };
 		B95877AB1D53935D0011ACE9 /* TDProxyDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B95877AA1D53935D0011ACE9 /* TDProxyDemoTests.m */; };
 		B95877B61D53935D0011ACE9 /* TDProxyDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B95877B51D53935D0011ACE9 /* TDProxyDemoUITests.m */; };
+		B95877C51D53A0410011ACE9 /* TDDealerProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = B95877C41D53A0410011ACE9 /* TDDealerProxy.m */; };
+		B95877D41D54FF180011ACE9 /* TDBookProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = B95877D31D54FF180011ACE9 /* TDBookProvider.m */; };
+		B95877D71D54FF7E0011ACE9 /* TDClothesProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = B95877D61D54FF7E0011ACE9 /* TDClothesProvider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		B95877B11D53935D0011ACE9 /* TDProxyDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDProxyDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B95877B51D53935D0011ACE9 /* TDProxyDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDProxyDemoUITests.m; sourceTree = "<group>"; };
 		B95877B71D53935D0011ACE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95877C31D53A0410011ACE9 /* TDDealerProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDDealerProxy.h; sourceTree = "<group>"; };
+		B95877C41D53A0410011ACE9 /* TDDealerProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDDealerProxy.m; sourceTree = "<group>"; };
+		B95877D21D54FF180011ACE9 /* TDBookProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDBookProvider.h; sourceTree = "<group>"; };
+		B95877D31D54FF180011ACE9 /* TDBookProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDBookProvider.m; sourceTree = "<group>"; };
+		B95877D51D54FF7E0011ACE9 /* TDClothesProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDClothesProvider.h; sourceTree = "<group>"; };
+		B95877D61D54FF7E0011ACE9 /* TDClothesProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDClothesProvider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +119,12 @@
 				B958779E1D53935D0011ACE9 /* LaunchScreen.storyboard */,
 				B95877A11D53935D0011ACE9 /* Info.plist */,
 				B95877901D53935D0011ACE9 /* Supporting Files */,
+				B95877C31D53A0410011ACE9 /* TDDealerProxy.h */,
+				B95877C41D53A0410011ACE9 /* TDDealerProxy.m */,
+				B95877D21D54FF180011ACE9 /* TDBookProvider.h */,
+				B95877D31D54FF180011ACE9 /* TDBookProvider.m */,
+				B95877D51D54FF7E0011ACE9 /* TDClothesProvider.h */,
+				B95877D61D54FF7E0011ACE9 /* TDClothesProvider.m */,
 			);
 			path = TDProxyDemo;
 			sourceTree = "<group>";
@@ -271,8 +286,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B95877981D53935D0011ACE9 /* ViewController.m in Sources */,
+				B95877C51D53A0410011ACE9 /* TDDealerProxy.m in Sources */,
+				B95877D71D54FF7E0011ACE9 /* TDClothesProvider.m in Sources */,
 				B95877951D53935D0011ACE9 /* AppDelegate.m in Sources */,
 				B95877921D53935D0011ACE9 /* main.m in Sources */,
+				B95877D41D54FF180011ACE9 /* TDBookProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
